@@ -13,15 +13,22 @@
 
 
 ### server:
-###  getMembers
+##  getMembers
 output : all the member
 
-###  getMember/:id
+## getMember/:id
 output : member with specific id (from the mongoDB)
 input : id of the entry
 
-###  addMember
+##  addMember
 input : Inserting member details
+
+### Bonus:
+## getActivePatientsLastMonth
+How many active patients have there been each day in the past month
+
+## getUnvaccinatedMembers
+The number of patients who are not vaccinated
 
 ### client :
 
@@ -36,6 +43,9 @@ input : Inserting member details
 ## MemberDetails
 # http://localhost:3000/member/id - (specific id)
 # ![image](https://github.com/efratir/CoronaProject/assets/122442795/8db73bb1-8cf4-4fc6-a4d4-99c58f37b08b)
+
+## componenet getActivePatientsLastMonth
+# Display as a graph the number of active patients
 
 
 
